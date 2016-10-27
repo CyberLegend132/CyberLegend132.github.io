@@ -18,7 +18,7 @@ body {
 	width: 850px;
 	height: 75px;
 	background-color: rgba(195,191,191,0.7) ;
-	margin: 15px auto ; 
+	margin: 15px auto ;
 	vertical-align: bottom;
 }
 
@@ -40,12 +40,12 @@ body {
 
 #menu a {
 	color: rgba(255,255,255,0.7) ;
-	text-decoration: underline ;
+	text-decoration: none ;
 }
 
 #menu a:hover {
 	color: #00B0EA ;
-	text-decoration: underline ;
+	text-decoration: none ;
 }
 
 h2 {
@@ -79,7 +79,7 @@ p {
 
 iframe {
 	margin: 3px ;
-	
+
 }
 
 pa {
@@ -103,4 +103,3 @@ pa {
 	text-decoration: none;
 	color: #ffffff ;
 }
-
