@@ -1,0 +1,106 @@
+body {
+	background-image: url('bg.png');
+}
+#topMenu {
+	width: 850px;
+	height: 40px;
+	background-color: #222222 ;
+	margin: 0px auto ;
+}
+#content {
+	width: 850px;
+	max-height: 2000px;
+	min-height: 200px;
+	background-color: rgba(255,255,255,0.7);
+	margin: -18px auto ;
+}
+#footer {
+	width: 850px;
+	height: 75px;
+	background-color: rgba(195,191,191,0.7) ;
+	margin: 15px auto ; 
+	vertical-align: bottom;
+}
+
+#name {
+	padding: 20px 0 0 25px ;
+	color: #222222 ;
+	font-size: 32px;
+	font-weight: bold ;
+	font-family arial ;
+}
+
+#menu {
+	padding: 10px 0 0 25px;
+	color: rgba(255,255,255,0.7) ;
+	font-size: 18px;
+	font-weight: bold ;
+	font-family: arial ;
+}
+
+#menu a {
+	color: rgba(255,255,255,0.7) ;
+	text-decoration: underline ;
+}
+
+#menu a:hover {
+	color: #00B0EA ;
+	text-decoration: underline ;
+}
+
+h2 {
+	padding: 25px 0 0 25px;
+	color: #222222 ;
+	font-size: 20px;
+	font-weight: bold ;
+	font-family arial ;
+}
+
+p {
+	padding: 5px 10px 0 20px;
+	color: #222222 ;
+	font-size: 18px;
+	font-family arial ;
+}
+
+#imageMenu {
+	width: 850px ;
+	height: 70px ;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0px auto ;
+}
+
+#imageWord {
+	padding: 20px 20px 0 25px;
+	color: #222222 ;
+	font-size: 18px;
+	font-family arial ;
+}
+
+iframe {
+	margin: 3px ;
+	
+}
+
+pa {
+	padding: 5px 5px 0 20px ;
+}
+
+.back-to-top {
+	display: none;
+	position: fixed;
+	bottom: 2em;
+	right: 0px;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(235,235,235,0.80);
+	font-size: 12px;
+	padding: 1em;
+}
+
+.back-to-top:hover {
+	background-color: rgba(135,135,135,0.50);
+	text-decoration: none;
+	color: #ffffff ;
+}
+
