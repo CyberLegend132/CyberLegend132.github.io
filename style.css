@@ -1,5 +1,11 @@
 body {
 	background-image: url('bg.png');
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
 }
 #topMenu {
 	width: 850px;
@@ -20,6 +26,7 @@ body {
 	background-color: rgba(195,191,191,0.7) ;
 	margin: 15px auto ;
 	vertical-align: bottom;
+	font-size: 15px;
 }
 
 #name {
@@ -102,4 +109,61 @@ pa {
 	background-color: rgba(135,135,135,0.50);
 	text-decoration: none;
 	color: #ffffff ;
+}
+
+#nav{
+	background-color: #222;
+	width: 850px;
+	text-align: center;
+	position:relative;
+	left: 215px
+}
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+}
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:hover{
+	background-color: #333;
+}
+#nav ul li a,visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+#nav ul li:hover ul{
+	display: block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #333;
+	border: 5px solid;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 200px;
+}
+#nav ul ul li{
+	display: block;
+}
+#nav ul ul li a,visited{
+	color: #ccc;
+}
+#nav ul ul li a:hover{
+	color: #099;
 }
